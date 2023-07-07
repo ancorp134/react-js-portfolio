@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter, NavLink } from "react-router-dom";
 import "../styles/navbar.css"
 
 
@@ -14,55 +15,55 @@ function NavBar() {
         <>
             <nav className="navbar">
                 <div className="nav-container">
-                    <a  href="/" className="nav-logo">
-                        Ankit Tyagi  
-                    </a>
+                    <NavLink  to="/" className="nav-logo">
+                        <span id="nav-span">Ankit Tyagi</span>.  
+                    </NavLink>
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <a
+                            <NavLink
                                 
-                                href="/"
+                                to="/"
                                 // activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
                             >
                                 Home
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li className="nav-item">
-                            <a
+                            <NavLink
                                 
-                                href=""
+                                to="/project"
                                 // activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
                             >
                                 Projects
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a
+                            <NavLink
                                 
-                                href=""
+                                to="/about"
                                 // activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
                             >
-                                About
-                            </a>
+                                Education
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a
+                            <NavLink
                                 
-                                href=""
+                                to=""
                                 // activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
                             >
                                 Contact
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                     <div className="nav-icon" onClick={handleClick}>
