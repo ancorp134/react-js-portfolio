@@ -1,0 +1,224 @@
+.project-title {
+    margin-top: 10rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.project-display-container {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 2rem 0; */
+    
+
+}
+
+/* .slide-right {
+	-webkit-animation: slide-right 0.5s steps(2, end) both;
+	        animation: slide-right 0.5s steps(2, end) both;
+}
+
+
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  } */
+  
+
+.project-image-container {
+    height: 450px;
+    width: 500px;
+    margin-bottom: 7rem;
+    
+}
+
+.project-image {
+    height: 100%;
+    width: 100%;
+    padding: 35px;
+    background-color: #171c28;
+    box-shadow: 7px 11px 12px rgba(179, 175, 175, 0.2);
+    
+}
+
+.project-image:hover{
+    box-shadow: 7px 11px 12px  #55198B;
+}
+
+.buttons {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.link-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13rem;
+    height: 4rem;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.link-btn:hover {
+    transition: 0.3s ease;
+    background-color:  #55198B;
+    color: white;
+}
+
+.display-project {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.7rem 0;
+    /* border: 2px solid black; */
+}
+
+.project-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 50vw;
+}
+
+.project-info h1 {
+    font-size: 1.7rem;
+    color: white;
+    
+}
+
+.project-paragraph {
+    
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 70px 10px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #171c28;
+    box-shadow: 7px 11px 12px rgba(179, 175, 175, 0.2);
+    border-radius: 10px 10px ;
+}
+
+.project-paragraph:hover{
+    background-color: #55198B;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .display-project {
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .project-image-container {
+        height: 300px;
+        width: 90%;
+    }
+
+    .buttons {
+        justify-content: space-around;
+    }
+
+    .link-btn {
+
+        justify-content: space-around;
+        width: 8rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .project-info h1 {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .project-paragraph {
+        width: 400px;
+        font-size: 1rem;
+    }
+
+    .btn-icon {
+        height: 15px;
+        width: 15px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .display-project {
+        flex-direction: column;
+    }
+
+    .project-image-container {
+        height: 490px;
+        width: 80%;
+    }
+
+    .buttons {
+        justify-content: space-around;
+    }
+
+    .link-btn {
+
+        justify-content: space-around;
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .project-info h1 {
+        font-size: 1.9rem;
+        margin-top: 2rem;
+    }
+
+    .btn-icon {
+        height: 19px;
+        width: 19px;
+        font-size: 1.3rem;
+    }
+}
