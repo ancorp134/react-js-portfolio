@@ -1,3 +1,7 @@
+.vertical-timeline-element-content h2 {
+    color: white;
+  }
+
 .about-icon {
     display: flex;
     justify-content: center;
@@ -7,9 +11,17 @@
 }
 
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    background-color: #64CCC5;
-    color: black;
+    background-color: #171c28;
+    color: white;
     border-radius: 10px;
+    box-shadow: 2px #0D1117;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in:hover{
+    background-color: #55198B;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #55198B;
 }
 
 .vertical-timeline-element-date {
@@ -19,6 +31,7 @@
 
 .vertical-timeline-element-title{
     font-size: 1rem;
+    color: white;
 }
 
 .about {
@@ -53,7 +66,7 @@
 
 @media screen and (max-width: 960px) {
     .vertical-timeline-element-date {
-        color: black;
+        color:#171c28;
     }
 
     .about-icon {

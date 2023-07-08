@@ -8,22 +8,29 @@
 
 #header h1{
     margin: 0 0 10px 0;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
     overflow-y: hidden;
     letter-spacing: 1px;
 }
 
+/* .header-img img{
+    mix-blend-mode: multiply;
+    
+    
+} */
+
 #header .brand-name {
-    color: #64CCC5;
-    font-size: 2rem;
+    color: #55198b;
+    font-size: 3rem;
+    font-weight: bolder;
     font-family: 'Roboto', sans-serif;
 }
 
 #header h2{
     color: white;
-    font-size: 18px;
+    font-size: 1.5rem;
     overflow-y: hidden;
     letter-spacing: 1px;
     text-align: left;
@@ -31,21 +38,21 @@
 }
 
 #header .btn-get-started{
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     display: inline-block;
     padding: 15px 35px;
     border-radius: 50px;
     transition: 0.5s;
-    color:#64CCC5;
-    border: 2px solid #64CCC5;
+    color: white;
+    border: 2px solid #55198B;
     text-decoration: none;
 }
 
 #header .btn-get-started:hover{
-    background-color: #64CCC5;
-    color: black;
+    background-color:#55198B;
+    color: white;
 }
 
 #header .animated{
@@ -74,7 +81,7 @@
 
 @media screen and (max-width: 991px) {
     #header .brand-name {
-        color:#64CCC5;
+        color:#55198B;
         font-size: 2rem;
         font-family: 'Roboto', sans-serif;
     }
@@ -94,8 +101,8 @@
         padding: 10px 30px;
         border-radius: 50px;
         transition: 0.5s;
-        color:#64CCC5;
-        border: 2px solid #64CCC5;
+        color:#55198B;
+        border: 2px solid #55198B;
         text-decoration: none;
     }
 }
