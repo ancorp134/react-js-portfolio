@@ -12,7 +12,7 @@ function Home() {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1  d-flex justify-content-center flex-column animate__animated animate__backInLeft">
+                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1  d-flex justify-content-center flex-column ">
                   <h1>
                     Hi all, I'm
                     <strong className="brand-name">{" "}Ankit Tyagi 👋</strong>
@@ -33,7 +33,7 @@ function Home() {
                   </div>
                 </div>
 
-                <div className="col-lg-6 order-1 order-lg-2 header-img animate__animated animate__backInRight">
+                <div className="col-lg-6 order-1 order-lg-2 header-img ">
                   <img
                     src={heroimg}
                     className="img-fluid animated"
