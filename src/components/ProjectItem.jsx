@@ -19,15 +19,16 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 390,
-  bgcolor: "background.paper",
+  bgcolor: "#010E1B",
   border: "2px solid #000",
   boxShadow: 24,
   p: 4,
   outline: 0,
+  color: "#086F2C"
   
 };
 
-export default function ProjectItem({image,name}) {
+export default function ProjectItem({image,name,desc , skill}) {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -41,7 +42,7 @@ export default function ProjectItem({image,name}) {
         <CardMedia
           sx={{ height: 300, backgroundSize: "contain", width: "300px" }}
           image={image}
-          title="green iguana"
+          title={name}
           onClick={handleOpen}
         />
         <CardContent>
@@ -59,19 +60,13 @@ export default function ProjectItem({image,name}) {
           <Box sx={style}>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Lizard
+                {name}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio hic consequuntur magnam facere enim ullam corporis
-                consequatur necessitatibus, accusamus dolorum accusantium, vero
-                rerum! Quaerat ipsam eum totam? Eaque temporibus alias sapiente
-                pariatur soluta, beatae accusamus adipisci inventore fugit
-                tempore sunt in magni facere suscipit repudiandae obcaecati
-                nulla ab harum fugiat atque, ex earum recusandae accusantium
-                enim.
+              <Typography variant="body2" color="white">
+                {desc}
+              </Typography>
+              <Typography variant="body2" color="white">
+                <span style={{color : "#086F2C"}}>Languages and Framework: </span> {skill}
               </Typography>
               <CardActions>
                 <GitHubIcon></GitHubIcon>

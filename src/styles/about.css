@@ -18,10 +18,10 @@
 }
 
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in:hover{
-    background-color: #55198B;
+    background-color: #086F2C;
     color: white;
     border-radius: 10px;
-    border: 2px solid #55198B;
+    border: 2px solid #086F2C;
 }
 
 .vertical-timeline-element-date {

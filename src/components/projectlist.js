@@ -9,11 +9,11 @@ export const ProjectList = [
         key: 0,
         name: "Mart(E-commerce)",
         image: ecommerce,
-        skills: "ReactJS,MongoDB,NodeJS,ExpressJS",
+        skills: "Python, HTML, CSS, JavaScript , Django etc.",
         codeLink: "",
         demoLink: "",
-        info: "The e-commerce web app is a feature-rich platform that provides user authentication and authorization using JWT. It has an admin dashboard for managing products, orders, users, and statistics. The platform includes a payment gateway and mail service, with features like Forgot Password and Reset Password. The platform also allows users to search for products, view product details and reviews, manage their cart, and track order history. Overall, it's a comprehensive platform that offers a seamless shopping experience for users.",
-       
+        info: "Online store with many functionality like authentication and email verification.Creating Various Models like Accounts, Orders, Cart,Categories, etc. Exposed POST, GET, PATCH, and DELETE HTTP methods using Django Rest Framework. Created with Django Framework Concepts like Pagination, Tokens,etc. And by using SQLite3 as a Database."
+            
     },
     {
         key: 1,
