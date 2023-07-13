@@ -1,6 +1,3 @@
-
-
-
 .container{
     
     display: flex;
@@ -19,7 +16,7 @@
 
 @media only screen and (  max-width: 1000px) {
     .container{
-        margin: auto;
+       
         width: 100vw;
         
     }
