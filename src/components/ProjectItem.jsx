@@ -1,24 +1,86 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import { useState } from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 
-const ProjectItem = ({ image, name, id }) => {
-    const navigate = useNavigate();
-    return (
-        <div className="main-container" onClick={() => {
-            navigate("/project/" + id)
-        }}>
-            <div className='project-item'>
-                <div className='img-container'>
-                    <img src={image} alt="Project_Image" className='bgImage' />
-                    <h1 className='text-center' style={{
-                        marginTop : "4rem",
-                        color: "white",
-                        fontSize: "1.5rem"
-                    }}> {name} </h1>
-                </div>
-            </div>
-        </div>
-    )
+import "../styles/projectitem.css"
+import "animate.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkIcon from "@mui/icons-material/Link";
+import Modal from "@mui/material/Modal";
+
+const style = {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 390,
+  bgcolor: "background.paper",
+  border: "2px solid #000",
+  boxShadow: 24,
+  p: 4,
+  outline: 0,
+  
+};
+
+export default function ProjectItem({image,name}) {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  return (
+    
+      <Card
+        sx={{ maxWidth: 300, maxHeight: 400, borderRadius: 5 }}
+        className="card"
+      >
+        <CardMedia
+          sx={{ height: 300, backgroundSize: "contain", width: "300px" }}
+          image={image}
+          title="green iguana"
+          onClick={handleOpen}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {name}
+          </Typography>
+        </CardContent>
+        <Modal
+          sx={{}}
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Lizard
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Lizards are a widespread group of squamate reptiles, with over
+                6,000 species, ranging across all continents except Antarctica
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio hic consequuntur magnam facere enim ullam corporis
+                consequatur necessitatibus, accusamus dolorum accusantium, vero
+                rerum! Quaerat ipsam eum totam? Eaque temporibus alias sapiente
+                pariatur soluta, beatae accusamus adipisci inventore fugit
+                tempore sunt in magni facere suscipit repudiandae obcaecati
+                nulla ab harum fugiat atque, ex earum recusandae accusantium
+                enim.
+              </Typography>
+              <CardActions>
+                <GitHubIcon></GitHubIcon>
+                <LinkIcon></LinkIcon>
+              </CardActions>
+            </CardContent>
+          </Box>
+        </Modal>
+      </Card>
+    
+  );
 }
-
-export default ProjectItem

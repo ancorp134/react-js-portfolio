@@ -4,7 +4,7 @@ import { Route,Routes , BrowserRouter} from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
-import ProjectDisplay from "./components/ProjectDisplay";
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/about" element={<About></About>}></Route>
           <Route path="/project" element={<Project></Project>}></Route>
-          <Route path="/project/:id" element={<ProjectDisplay />} />
+          
         </Routes>
       </BrowserRouter>
     </>
