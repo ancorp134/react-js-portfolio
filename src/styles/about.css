@@ -14,11 +14,11 @@
 }
 
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    background-color: #12D640;
+    
     color: black;
     border-radius: 10px;
-    box-shadow: 2px #0D1117;
-    opacity: 0.8;
+    box-shadow: 2px white;
+   
 }
 
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in:hover{
