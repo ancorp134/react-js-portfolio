@@ -24,13 +24,13 @@ const style = {
   boxShadow: 24,
   p: 4,
   outline: 0,
-  color: "#086F2C",
+  color: "#12D640",
   height : 500
 
   
 };
 
-export default function ProjectItem({image,name,desc , skill}) {
+export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -65,7 +65,7 @@ export default function ProjectItem({image,name,desc , skill}) {
                 {name}
               </Typography>
               <Typography variant="body2" color="white" className="project-tech">
-                <span  className="project-span" style={{color : "#086F2C" , fontSize:"25px"}}>Languages and Framework: </span> {skill}
+                <span  className="project-span" style={{color : "#12D640" , fontSize:"25px"}}>Languages and Framework: </span> {skill}
               </Typography>
               {desc.map((e)=>{
                 return(
@@ -75,8 +75,8 @@ export default function ProjectItem({image,name,desc , skill}) {
                 )
               })}
               <CardActions>
-                <GitHubIcon titleAccess="github" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></GitHubIcon>
-                <LinkIcon titleAccess="demo-link" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></LinkIcon>
+                <a href={codelink} target="_blank"><GitHubIcon titleAccess="github" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></GitHubIcon></a>
+                <a href={demolink} target="_blank"><LinkIcon titleAccess="demo-link" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></LinkIcon></a>
               </CardActions>
             </CardContent>
           </Box>

@@ -12,7 +12,7 @@ const Projects = () => {
       
        <div className="container animate__animated animate__fadeInLeft">
         {ProjectList.map((project, index) => {
-          return <ProjectItem id={index} name={project.name} image={project.image} key={project.key} desc ={project.info} skill = {project.skills}/>
+          return <ProjectItem id={index} name={project.name} image={project.image} key={project.key} desc ={project.info} skill = {project.skills} codelink = {project.codeLink} demolink = {project.demoLink} />
         })}
 
       </div>

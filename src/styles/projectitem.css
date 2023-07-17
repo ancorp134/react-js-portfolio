@@ -39,11 +39,11 @@
 }
 
 .link-btn:hover{
-    color: #086F2C;
+    color: #12D640;
     transform: translateY(-10px);
 }
 
-@media only screen and (  max-width: 500px) {
+@media only screen and (  max-width: 1000px) {
     .container{
        
         width: 100vw;
@@ -77,3 +77,8 @@
     
     
 }
+
+
+   
+    
+    

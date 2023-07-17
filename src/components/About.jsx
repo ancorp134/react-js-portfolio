@@ -20,8 +20,8 @@ const About = () => {
             className="vertical-timeline-element--education"
             date="AUG 2019 - JULY 2023"
             iconStyle={{
-              background: "#086F2C",
-              color: "white",
+              background: "#12D640",
+              color: "black",
             }}
             icon={<i className="fa-solid fa-graduation-cap about-icon"></i>}
           >
@@ -30,17 +30,17 @@ const About = () => {
             </h2>
             <br />
             <h3 className="vertical-timeline-element-title">
-            🏷️ Bachelor of Technology in Information Technology
+            ✏️ Bachelor of Technology in Information Technology
             </h3>
 
-            <p>🏷️ Graduated with distinction,achieving an SGPA of 8.16.</p>
+            <p>✏️ Graduated with distinction,achieving an SGPA of 8.16.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2016 - 2017"
             iconStyle={{
-              background: "#086F2C",
-              color: "white",
+              background: "#12D640",
+              color: "black",
             }}
             icon={<i className="fa-solid fa-building-columns about-icon"></i>}
           >
@@ -48,17 +48,17 @@ const About = () => {
               Modern School, Noida
             </h2>
             <br />
-            <h3 className="vertical-timeline-element-title">🏷️ Intermediate</h3>
+            <h3 className="vertical-timeline-element-title">✏️ Intermediate</h3>
 
-            <p>🏷️ Passed with distinction,achieving an CGPA of 8.87.</p>
+            <p>✏️ Passed with distinction,achieving an CGPA of 8.87.</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="2014 - 2015"
             iconStyle={{
-              background: "#086F2C",
-              color: "white",
+              background: "#12D640",
+              color: "black",
             }}
             icon={<i className="fa-solid fa-building-columns about-icon"></i>}
           >
@@ -66,9 +66,9 @@ const About = () => {
               Modern School, Noida
             </h2>
             <br />
-            <h3 className="vertical-timeline-element-title">🏷️ High School</h3>
+            <h3 className="vertical-timeline-element-title">✏️ High School</h3>
 
-            <p>🏷️ Passed with distinction,achieving an CGPA of 8.0.</p>
+            <p>✏️ Passed with distinction,achieving an CGPA of 8.0.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
