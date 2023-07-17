@@ -16,7 +16,7 @@ function NavBar() {
             <nav className="navbar">
                 <div className="nav-container">
                     <NavLink  to="/" className="nav-logo">
-                        <span id="nav-span">Ankit Tyagi</span>.  
+                        <span id="nav-span">Ankit</span>.  
                     </NavLink>
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>

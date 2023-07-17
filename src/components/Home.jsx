@@ -15,7 +15,7 @@ function Home() {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1  d-flex justify-content-center flex-column ">
                   <h1>
                     Hi all, I'm
-                    <strong className="brand-name">{" "}Ankit Tyagi 👋</strong>
+                    <strong className="brand-name">{" "} Ankit Tyagi 👋</strong>
                   </h1>
                   <h2 className="my-3">
                     As a recent graduate with a passion for learning, I am
