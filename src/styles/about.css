@@ -18,6 +18,7 @@
     color: black;
     border-radius: 10px;
     box-shadow: 2px #0D1117;
+    opacity: 0.8;
 }
 
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in:hover{

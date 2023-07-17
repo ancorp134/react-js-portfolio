@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-
+import CloseIcon from '@mui/icons-material/Close';
 import "../styles/projectitem.css"
 import "animate.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -61,8 +61,10 @@ export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
         >
           <Box sx={style} className="box">
             <CardContent>
+              <CloseIcon onClick={handleClose} className="closeicon"></CloseIcon>
               <Typography gutterBottom variant="h5" component="div" className="project-head">
                 {name}
+              
               </Typography>
               <Typography variant="body2" color="white" className="project-tech">
                 <span  className="project-span" style={{color : "#12D640" , fontSize:"25px"}}>Languages and Framework: </span> {skill}

@@ -38,6 +38,25 @@
     color: white;
 }
 
+.box{
+    height: 90vh !important;
+}
+
+.closeicon{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 4rem !important;
+    margin: 10px !important;
+    font-size: 3rem  !important;
+    cursor: pointer;
+}
+
+.closeicon:hover{
+    transform: translateY(-10px);
+    
+}
+
 .link-btn:hover{
     color: #12D640;
     transform: translateY(-10px);
@@ -74,7 +93,13 @@
     }
 
    
-    
+    .closeicon{
+        position: absolute;
+        top: 0;
+        right:0;
+        width: 2rem !important;
+        margin-top: 5px !important;
+    }
     
 }
 
