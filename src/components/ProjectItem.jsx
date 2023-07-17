@@ -67,6 +67,10 @@ export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
               <Typography variant="body2" color="white" className="project-tech">
                 <span  className="project-span" style={{color : "#12D640" , fontSize:"25px"}}>Languages and Framework: </span> {skill}
               </Typography>
+              {'\n'}
+              <Typography variant="body2" color="white" className="project-tech">
+                <span  className="project-span" style={{color : "#12D640" , fontSize:"25px"}}>Description: </span> 
+              </Typography> 
               {desc.map((e)=>{
                 return(
                   <Typography variant="body2" color="white" className="project-desc">

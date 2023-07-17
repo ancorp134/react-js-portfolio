@@ -52,7 +52,7 @@
 
     .box {
         width: 350px !important;
-        height: 80vh !important;
+        height: 100% !important;
     }
 
     .project-desc{
