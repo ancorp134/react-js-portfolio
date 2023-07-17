@@ -14,11 +14,66 @@
     cursor: pointer;
 }
 
+.card:hover{
+    transform: translateY(-10px);
+}
 
-@media only screen and (  max-width: 1000px) {
+.project-head{
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+
+.project-desc{
+    font-size: 20px !important;
+    letter-spacing: 1px !important;
+    padding: 2px !important;
+}
+
+.project-tech{
+    font-size: 20px !important;
+}
+
+.link-btn{
+    
+    color: white;
+}
+
+.link-btn:hover{
+    color: #086F2C;
+    transform: translateY(-10px);
+}
+
+@media only screen and (  max-width: 500px) {
     .container{
        
         width: 100vw;
         
     }
+
+    .box {
+        width: 350px !important;
+        height: 80vh !important;
+    }
+
+    .project-desc{
+        font-size: 15px !important;
+        letter-spacing: 1px !important;
+        padding: 2px !important;
+    }
+    .project-tech{
+        font-size: 15px !important;
+    }
+
+    .project-head{
+        font-size: 25px !important;
+        font-weight: bold !important;
+    }
+
+    .project-span {
+        font-size: 18px !important;
+    }
+
+   
+    
+    
 }

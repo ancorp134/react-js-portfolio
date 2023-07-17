@@ -18,13 +18,15 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 390,
+  width: 1000,
   bgcolor: "#010E1B",
   border: "2px solid #000",
   boxShadow: 24,
   p: 4,
   outline: 0,
-  color: "#086F2C"
+  color: "#086F2C",
+  height : 500
+
   
 };
 
@@ -57,20 +59,24 @@ export default function ProjectItem({image,name,desc , skill}) {
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >
-          <Box sx={style}>
+          <Box sx={style} className="box">
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h5" component="div" className="project-head">
                 {name}
               </Typography>
-              <Typography variant="body2" color="white">
-                {desc}
+              <Typography variant="body2" color="white" className="project-tech">
+                <span  className="project-span" style={{color : "#086F2C" , fontSize:"25px"}}>Languages and Framework: </span> {skill}
               </Typography>
-              <Typography variant="body2" color="white">
-                <span style={{color : "#086F2C"}}>Languages and Framework: </span> {skill}
-              </Typography>
+              {desc.map((e)=>{
+                return(
+                  <Typography variant="body2" color="white" className="project-desc">
+                    <li>{e}</li> 
+                  </Typography> 
+                )
+              })}
               <CardActions>
-                <GitHubIcon></GitHubIcon>
-                <LinkIcon></LinkIcon>
+                <GitHubIcon titleAccess="github" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></GitHubIcon>
+                <LinkIcon titleAccess="demo-link" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></LinkIcon>
               </CardActions>
             </CardContent>
           </Box>
