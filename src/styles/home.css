@@ -59,6 +59,11 @@
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.header-img{
+    /* mix-blend-mode: multiply; */
+    
+}
+
 @-webkit-keyframes up-down {
     0% {
         transform: translateX(10px);
