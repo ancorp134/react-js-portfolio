@@ -1,5 +1,5 @@
 .vertical-timeline-element-content h2 {
-    color: black;
+    color: #38BDF8;
   }
 
   
@@ -14,28 +14,23 @@
 }
 
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    
-    color: black;
+    background-color: #132F4C;
+    color: #B2BAC2;
     border-radius: 10px;
-    box-shadow: 2px white;
-   
+    box-shadow: 2px #B2BAC2;
+    border: 2px solid dodgerblue;
 }
 
-.vertical-timeline--animate .vertical-timeline-element-content.bounce-in:hover{
-    background-color: #12D640;
-    color: black !important;
-    border-radius: 10px;
-    border: 2px solid #12D640;
-}
+
 
 .vertical-timeline-element-date {
-    color: #12D640;
+    color: #38BDF8;
     font-weight: bold !important;
 }
 
 .vertical-timeline-element-title{
     font-size: 1rem;
-    color: black;
+    color:#B2BAC2;
 }
 
 .vertical-timeline-element-icon {
@@ -81,7 +76,7 @@
 
 @media screen and (max-width: 960px) {
     .vertical-timeline-element-date {
-        color: black;
+        color: #B2BAC2;
     }
 
     .about-icon {
@@ -106,7 +101,7 @@
 
 @media (min-width: 768px) and (max-width:1169px) {
     .vertical-timeline-element-date {
-        color: black;
+        color:#B2BAC2;
     }
 
     .about-icon {

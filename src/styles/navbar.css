@@ -11,7 +11,7 @@
     font-size: 0.5rem;
     position: fixed;
     top: 0;
-    color: #12D640;
+    color: #38BDF8;
     z-index: 210;
     width: 100%;
     
@@ -83,7 +83,7 @@
 
 .nav-item:hover {
     width: 100%;
-    border-bottom:2px solid #12D640;
+    border-bottom:2px solid #38BDF8;
 }
 
 

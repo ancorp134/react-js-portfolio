@@ -19,12 +19,12 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 1000,
-  bgcolor: "#010E1B",
-  border: "2px solid #000",
+  bgcolor: "#132F4C",
+  border: "2px solid #38BDF8",
   boxShadow: 24,
   p: 4,
   outline: 0,
-  color: "#12D640",
+  color: "#38BDF8",
   height : 500
 
   
@@ -66,16 +66,16 @@ export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
                 {name}
               
               </Typography>
-              <Typography variant="body2" color="white" className="project-tech">
-                <span  className="project-span" style={{color : "#12D640" , fontSize:"25px"}}>Languages and Framework: </span> {skill}
+              <Typography variant="body2" color="#B2BAC2" className="project-tech">
+                <span  className="project-span" style={{color : "white" , fontSize:"25px"}}>Languages and Framework: </span> {skill}
               </Typography>
               {'\n'}
-              <Typography variant="body2" color="white" className="project-tech">
-                <span  className="project-span" style={{color : "#12D640" , fontSize:"25px"}}>Description: </span> 
+              <Typography variant="body2" color="#B2BAC2" className="project-tech">
+                <span  className="project-span" style={{color : "white" , fontSize:"25px"}}>Description: </span> 
               </Typography> 
               {desc.map((e)=>{
                 return(
-                  <Typography variant="body2" color="white" className="project-desc">
+                  <Typography variant="body2" color="#B2BAC2" className="project-desc">
                     <li>{e}</li> 
                   </Typography> 
                 )
