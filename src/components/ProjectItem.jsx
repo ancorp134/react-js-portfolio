@@ -75,8 +75,8 @@ export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
                 )
               })}
               <CardActions>
-                <a href={codelink} target="_blank"><GitHubIcon titleAccess="github" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></GitHubIcon></a>
-                <a href={demolink} target="_blank"><LinkIcon titleAccess="demo-link" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></LinkIcon></a>
+                <a href={codelink} ><GitHubIcon titleAccess="github" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></GitHubIcon></a>
+                <a href={demolink} ><LinkIcon titleAccess="demo-link" sx={{fontSize : "2.5rem" , margin : "20px" , cursor : "pointer"}} className="link-btn"></LinkIcon></a>
               </CardActions>
             </CardContent>
           </Box>
