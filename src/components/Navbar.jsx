@@ -49,7 +49,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/"
-                // activeClassName="active"
+               
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -60,7 +60,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/project"
-                // activeClassName="active"
+               
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -70,7 +70,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/about"
-                // activeClassName="active"
+               
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -80,7 +80,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/skill"
-                // activeClassName="active"
+               
                 className="nav-links"
                 onClick={handleClick}
               >
