@@ -1,13 +1,14 @@
 .skill-container {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 8rem 8rem;
     
 }
 
 .skill-section h3 {
     color: white;
+   
 }
 
 .skills{
@@ -17,11 +18,15 @@
     
 }
 
+.django {
+    border-radius: 50px 50px;
+}
+
 
 .skill-item {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #38BDF8;
     border-radius: 10px 10px;
-   
+    
     margin: 20px;
 }
 
@@ -37,6 +42,26 @@
 
 
 @media only screen and (max-width:1000px) {
+
+    .skill-section h3{
+        margin-top: 5rem;
+        
+    }
    
-}
+    .skill-container{
+        margin: 3rem;
+    }
+    .skill-item {
+        border-bottom: 2px solid #38BDF8;
+        border-radius: 10px 10px;
+        margin: 9px;
+      }
+
+      .skill-item img {
+        width: 100px;
+        height: 100px;
+        padding: 30px 30px;
+    }
+
+}   
 
