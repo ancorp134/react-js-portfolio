@@ -67,7 +67,7 @@ export default function Skill() {
 
       {/* Frameworks */}
 
-      <div className="skill-section animate__animated animate__fadeInRight">
+      <div className="skill-section animate__animated animate__fadeInLeft">
         <div className="header-text">
           <h3>Database</h3>
         </div>
