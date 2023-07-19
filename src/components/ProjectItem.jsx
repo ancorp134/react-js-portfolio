@@ -12,6 +12,8 @@ import "animate.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
 import Modal from "@mui/material/Modal";
+import 'animate.css';
+
 
 const style = {
   position: "absolute",
@@ -58,8 +60,9 @@ export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
+          className=" animate__animated animate__rotateInDownLeft"
         >
-          <Box sx={style} className="box">
+          <Box sx={style} className="box ">
             <CardContent>
               <CloseIcon onClick={handleClose} className="closeicon"></CloseIcon>
               <Typography gutterBottom variant="h5" component="div" className="project-head">
