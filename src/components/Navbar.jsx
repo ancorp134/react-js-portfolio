@@ -11,6 +11,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import CloseIcon from '@mui/icons-material/Close';
+import 'animate.css';
+
 
 const style = {
   position: "absolute",
@@ -100,6 +102,7 @@ function NavBar() {
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
+                className="animate__animated animate__rotateInDownRight"
               >
                 <Box sx={style} className="contact-box">
                   <CloseIcon
