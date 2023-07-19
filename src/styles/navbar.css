@@ -94,10 +94,15 @@
     border-bottom:2px solid #38BDF8;
 }
 
+.contact-btn{
+    color: black !important;
+    background-color: #38BDF8 !important;
+}
 
 .contact-btn:hover{
-    background-color: #38BDF8 !important;
-    color: black;
+    background-color: #010E1B !important;
+    border: 1px solid #1976d2 !important;
+    color: white !important;
 }
 
 

@@ -60,7 +60,7 @@ export default function ProjectItem({image,name,desc,skill,codelink,demolink}) {
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
-          className=" animate__animated animate__rotateInDownLeft"
+          className="animate__animated animate__rotateInDownLeft"
         >
           <Box sx={style} className="box ">
             <CardContent>
