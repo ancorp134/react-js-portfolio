@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/skill.css";
 import { skillList } from "./skilllist";
-import skillItem from "./skillItem";
+
 
 
 export default function Skill() {
@@ -12,7 +12,7 @@ export default function Skill() {
           <h3>Languages</h3>
         </div>
         {skillList.map((e) => {
-          return <skillItem languages={e.Languages}></skillItem>
+          return <h1>e</h1>
         })}
       </div>
     </div>
