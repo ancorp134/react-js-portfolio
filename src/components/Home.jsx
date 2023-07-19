@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/home.css";
-import heroimg from "../assets/images/vecteezy_motivated-3d-cyclist-with-race-bib-perfect-for-marathon-or_22483353_757.png";
+import heroimg from "../assets/images/home.gif";
 import { NavLink } from "react-router-dom";
 import 'animate.css';
 
