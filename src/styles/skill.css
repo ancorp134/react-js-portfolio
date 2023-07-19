@@ -1,0 +1,44 @@
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 8rem 8rem;
+    
+}
+
+.skill-section h3 {
+    color: white;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+
+.skill-item {
+    border-bottom: 2px solid white;
+    border-radius: 10px 10px;
+   
+    margin: 20px;
+}
+
+.skill-item img {
+    width: 150px;
+    height: 150px;
+    padding: 30px 30px;
+}
+
+.skill-item:hover{
+    transform: translateY(-10px);
+}
+
+
+@media only screen and (max-width:1000px) {
+    .container{
+        margin: 5rem;
+    }
+}
+

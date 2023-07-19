@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/home.css";
 import heroimg from "../assets/images/vecteezy_motivated-3d-cyclist-with-race-bib-perfect-for-marathon-or_22483353_757.png";
 import { NavLink } from "react-router-dom";
-
+import Project from "../components/Project"
 
 function Home() {
   return (
@@ -45,6 +45,7 @@ function Home() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }
