@@ -111,7 +111,7 @@ function NavBar() {
                         className="link-btn"
                       ></MailOutlineIcon>
                     </a>
-                    <a href="http://">
+                    <a href="https://www.linkedin.com/in/ankit-tyagi-a846711a8/">
                       <LinkedInIcon
                         sx={{
                           fontSize: "2.5rem",
@@ -121,7 +121,7 @@ function NavBar() {
                         className="link-btn"
                       ></LinkedInIcon>
                     </a>
-                    <a href="http://">
+                    <a href="https://github.com/ancorp134/">
                       <GitHubIcon
                         sx={{
                           fontSize: "2.5rem",
@@ -131,7 +131,7 @@ function NavBar() {
                         className="link-btn"
                       ></GitHubIcon>
                     </a>
-                    <a href="http://">
+                    <a href="https://www.instagram.com/_ankit_tyagi_12/">
                       <InstagramIcon
                         sx={{
                           fontSize: "2.5rem",
@@ -141,7 +141,7 @@ function NavBar() {
                         className="link-btn"
                       ></InstagramIcon>
                     </a>
-                    <a href="http://">
+                    <a href="https://twitter.com/Ankitty19769248/">
                       <TwitterIcon
                         sx={{
                           fontSize: "2.5rem",
@@ -151,7 +151,7 @@ function NavBar() {
                         className="link-btn"
                       ></TwitterIcon>
                     </a>
-                    <a href="http://">
+                    <a href="https://www.facebook.com/profile.php?id=100004965226765/">
                       <FacebookIcon
                         sx={{
                           fontSize: "2.5rem",
