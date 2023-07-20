@@ -111,7 +111,7 @@ function NavBar() {
                         className="link-btn"
                       ></MailOutlineIcon>
                     </a>
-                    <a href="https://www.linkedin.com/in/ankit-tyagi-a846711a8/">
+                    <a href="https://www.linkedin.com/in/ankittyagi1398/">
                       <LinkedInIcon
                         sx={{
                           fontSize: "2.5rem",

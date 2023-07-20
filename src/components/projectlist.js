@@ -2,6 +2,7 @@ import cryptomarket from "../assets/images/cryptomarket.jpg";
 import ecommerce from "../assets/images/ecommerce.jpg";
 import filesharing from "../assets/images/filesharing.jpg";
 import starhotel from "../assets/images/sh.jpg";
+import portfolio from "../assets/images/7753426.jpg";
 
 export const ProjectList = [
     {
@@ -50,7 +51,7 @@ export const ProjectList = [
     key: 3,
     name: "Star Hotel",
     image: starhotel,
-    skills: "HTML, CSS, JavaScript, andFirebase as a Database.",
+    skills: "HTML, CSS, JavaScript, and Firebase as a Database.",
     codeLink: "https://github.com/ancorp134/Star-Hotel",
     demoLink: "https://starhotel-ankittyagi.netlify.app/",
     info: [
@@ -58,6 +59,19 @@ export const ProjectList = [
       "Functionality like Search and Delete Booking.",
       "Created with Firebase services like Authentication,Real time database.",
       "Designed and developed a clean and modern website usingHTML, CSS, and JavaScript.",
+    ],
+  },
+
+  {
+    key: 4,
+    name: "Personal Portfolio",
+    image: {portfolio},
+    skills: "HTML, CSS, JavaScript, ReactJs",
+    codeLink: "https://github.com/ancorp134/react-js-portfolio",
+    demoLink: "https://ankittyagi.vercel.app/",
+    info: [
+      "Engineered a visually appealing portfolio website that contains all my information including qualifications,experience, and projects.",
+      "Developed a clean and modern website using HTML, CSS, and JavaScript.",
     ],
   },
 ];
