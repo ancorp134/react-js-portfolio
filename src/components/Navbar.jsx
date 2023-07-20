@@ -10,16 +10,16 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import CloseIcon from '@mui/icons-material/Close';
-import 'animate.css';
-
+import CloseIcon from "@mui/icons-material/Close";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import "animate.css";
 
 const style = {
   position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 500,
+  width: 600,
   bgcolor: "#132F4C",
   border: "2px solid #38BDF8",
   boxShadow: 24,
@@ -49,12 +49,7 @@ function NavBar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink
-                to="/"
-               
-                className="nav-links"
-                onClick={handleClick}
-              >
+              <NavLink to="/" className="nav-links" onClick={handleClick}>
                 Home
               </NavLink>
             </li>
@@ -62,7 +57,6 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 to="/project"
-               
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -70,22 +64,12 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/about"
-               
-                className="nav-links"
-                onClick={handleClick}
-              >
+              <NavLink to="/about" className="nav-links" onClick={handleClick}>
                 Education
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/skill"
-               
-                className="nav-links"
-                onClick={handleClick}
-              >
+              <NavLink to="/skill" className="nav-links" onClick={handleClick}>
                 Skills
               </NavLink>
             </li>
@@ -128,6 +112,16 @@ function NavBar() {
                       ></MailOutlineIcon>
                     </a>
                     <a href="http://">
+                      <LinkedInIcon
+                        sx={{
+                          fontSize: "2.5rem",
+                          margin: "20px",
+                          cursor: "pointer",
+                        }}
+                        className="link-btn"
+                      ></LinkedInIcon>
+                    </a>
+                    <a href="http://">
                       <GitHubIcon
                         sx={{
                           fontSize: "2.5rem",
@@ -167,6 +161,7 @@ function NavBar() {
                         className="link-btn"
                       ></FacebookIcon>
                     </a>
+
                     <></>
                   </Typography>
                 </Box>
