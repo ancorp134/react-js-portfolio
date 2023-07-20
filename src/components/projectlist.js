@@ -65,7 +65,7 @@ export const ProjectList = [
   {
     key: 4,
     name: "Personal Portfolio",
-    image: {portfolio},
+    image: portfolio,
     skills: "HTML, CSS, JavaScript, ReactJs",
     codeLink: "https://github.com/ancorp134/react-js-portfolio",
     demoLink: "https://ankittyagi.vercel.app/",
