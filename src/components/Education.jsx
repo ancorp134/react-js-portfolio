@@ -8,7 +8,7 @@ import "../styles/about.css";
 
 import { useEffect } from "react";
 
-const About = () => {
+const Education = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
@@ -76,4 +76,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Education;
