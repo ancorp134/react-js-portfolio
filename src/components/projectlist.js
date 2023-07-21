@@ -2,7 +2,7 @@ import cryptomarket from "../assets/images/cryptomarket.jpg";
 import ecommerce from "../assets/images/ecommerce.jpg";
 import filesharing from "../assets/images/filesharing.jpg";
 import starhotel from "../assets/images/sh.jpg";
-import portfolio from "../assets/images/7753426.jpg";
+import portfolio from "../assets/images/20943391.jpg";
 
 export const ProjectList = [
     {
