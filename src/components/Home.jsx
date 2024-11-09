@@ -29,7 +29,7 @@ function Home() {
                     skills.
                   </h2>
                   <div className="mt-3">
-                    <NavLink to="https://drive.google.com/file/d/1Kg3_f5B8Jb46evSNfDZN5wMP9FuA2FyV/view?usp=sharing" className="btn-get-started">
+                    <NavLink to="https://drive.google.com/file/d/1ZNJ1kMjYem0EtOaHUP285NE9bv6Klw9G/view?usp=sharing" className="btn-get-started">
                       Resume
                     </NavLink>
                   </div>
